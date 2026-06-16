@@ -99,7 +99,7 @@ For more information on resource management, see the https://kubernetes.io/docs/
 
 {sboms-name} requires a PostgreSQL database to store SBOM data. You have two options: use the built-in https://cloudnative-pg.io/[CloudNativePG (CNPG) operator] or connect to an external PostgreSQL instance.
 
-[[using-cloudnativepg-recommended]]
+[#_using-cloudnativepg-recommended]
 === Using CloudNativePG (Recommended)
 
 By default, {sboms-name} deploys a PostgreSQL cluster using the CloudNativePG operator. This is the easiest way to get started.
